@@ -108,11 +108,11 @@ func handleClient(conn net.Conn) {
 				er = err
 			}
 			message = strings.TrimSpace(message)
-			// if message == "exit" {
-			// 	logText = fmt.Sprintf("Client %s exited at: %s", client.name, formatDate(time.Now())) + "\n"
-			// 	writeTolog(logText)
-			// 	break
-			// }
+			if message == "exit" {
+				logText = fmt.Sprintf("Client %s exited at: %s", client.name, formatDate(time.Now())) + "\n"
+				writeTolog(logText)
+				break
+			}
 			// conn.Write([]byte("Enter a message or press '--change' to change your name: \n"))
 
 			if message == "--change" {
