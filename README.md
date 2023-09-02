@@ -33,6 +33,7 @@ TCPChat is a versatile chat application that reimagines the classic NetCat utili
 The TCPChat project is written in the Go programming language and follows best practices for Go development. It incorporates Go-routines, channels, and mutexes to handle concurrency and ensure thread safety.
 
 ## Author
+
 This project was created as an educational exercise by [ialimoud & ader]. Feel free to explore the code, experiment with the features, and contribute to its development.
 ## Learning Opportunities
 This project offers valuable insights into various aspects of programming, networking, and Go development:
