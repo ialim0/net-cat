@@ -27,6 +27,7 @@ TCPChat is a versatile chat application that reimagines the classic NetCat utili
 10. **Graceful Client Exit**: If a client leaves the chat, the remaining clients continue without disruption.
 
 11. **Default Port**: If no port is specified, the default port is set to 8989.
+12. **Change name**: All client can change name (--change) or exit the chat (--exit)
 
 ## Project Structure
 
